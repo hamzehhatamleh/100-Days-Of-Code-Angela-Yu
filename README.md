@@ -1,9 +1,11 @@
-# Day 20: The Snake Game (Part 1 & 2)
+# 100 Days of Code - Python Portfolio (Angela Yu)
 
-An implementation of the classic arcade Snake Game built using Python's object-oriented programming fundamentals and the `turtle` graphics library.
+This repository tracks my intermediate practical software development progress through Angela Yu's "100 Days of Code" Python course. 
 
-## 🧠 Core Concepts Practiced:
-* **Object-Oriented Programming (OOP):** Segmented game logic into modular classes (`SnakeBody`, `Food`, and `Score`) for clean architecture.
-* **Screen Animation & Control:** Leveraged `screen.tracer(0)` and `screen.update()` to enable smooth animation updates instead of disjointed movement.
-* **Event Listening:** Implemented key bindings (`screen.listen()`) to handle real-time user steering inputs smoothly.
-* **Collision Detection:** Programmed logic to detect when the snake touches the food or impacts borders/its own tail.
+I have intentionally excluded the absolute beginner fundamentals (Days 1–19) to showcase intermediate programming concepts, automation, and real-world projects.
+
+## 🛠️ Repository Content Index:
+* **Days 20-23:** OOP & Game Development (Snake, Pong, Turtle Crossing)
+* **Days 24-31:** Local File Handling & GUI Building (Tkinter, Password Managers)
+* **Days 32-60:** Working with APIs, Data Scraping, and Web Development Basics
+* **Days 61-80:** Advanced Python applications and Data Science introductions
