@@ -1,27 +1,25 @@
+PLACEHOLDER = "[name]"
+
+# Read all names
+with open("Input/Names/names.txt", "r") as names_file:
+    names = names_file.readlines()
 
 
-
-#
-# file =  open("hamzeh.txt")
-# content = file.read()
-#
-# print(content)
+# Read the letter template
+with open("Input/Letters/template.txt", "r") as letter_file:
+    template = letter_file.read()
 
 
-#
-# # a append  w write ,
-# with open("hamzeh.txt", mode="r") as file:
-#     content = file.readlines()
-#     print(content)
+# Create a letter for each person
+for name in names:
+    name = name.strip()
+
+    personalized_letter = template.replace(PLACEHOLDER, name)
+
+    file_path = f"Output/Letters/letter_for_{name}.txt"
+
+    with open(file_path, "w") as new_letter:
+        new_letter.write(personalized_letter)
 
 
-
-text = " \t\n Hello World!  d  \n"
-print(text)
-cleaned = text.strip()
-
-print(f"'{cleaned}'")
-# Output: 'Hello World!'
-
-
-
+print("Letters created successfully!")
