@@ -8,9 +8,9 @@ screen.bgpic("blank_states_img.gif")
 
 # 2. Turtle Setup (For writing names)
 state_marker = turtle.Turtle()
-state_marker.hideturtle()  # Hides the turtle icon so only text shows
-state_marker.color("red")  # Set text color (change to "red" if preferred)
-state_marker.penup()  # Prevents dragging ink lines across the map
+state_marker.hideturtle()
+state_marker.color("red")
+state_marker.penup() 
 
 # 3. Data Setup
 Data_US = pd.read_csv("50_states.csv")
